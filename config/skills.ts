@@ -9,32 +9,18 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Unreal 5",
+    name: "Sprint Boot",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
     rating: 5,
-    icon: Icons.unreal,
+    icon: Icons.springboot,
   },
   {
-    name: "Unity",
+    name: "Spring Native",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
     rating: 5,
-    icon: Icons.unity,
-  },
-  {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
-    icon: Icons.nextjs,
-  },
-  {
-    name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
-    icon: Icons.react,
+    icon: Icons.spring,
   },
   {
     name: "express.js",
@@ -49,6 +35,20 @@ export const skillsUnsorted: skillsInterface[] = [
       "Run JavaScript on the server side, enabling dynamic and responsive applications.",
     rating: 5,
     icon: Icons.nodejs,
+  },
+  {
+    name: "Next.js",
+    description:
+      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+    rating: 5,
+    icon: Icons.nextjs,
+  },
+  {
+    name: "React",
+    description:
+      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+    rating: 5,
+    icon: Icons.react,
   },
   {
     name: "Typescript",
@@ -112,6 +112,13 @@ export const skillsUnsorted: skillsInterface[] = [
       "Manage and organize relational databases efficiently for data-driven applications.",
     rating: 4,
     icon: Icons.mysql,
+  },
+  {
+    name: "Unreal 5",
+    description:
+      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+    rating: 4,
+    icon: Icons.unreal,
   },
 ];
 

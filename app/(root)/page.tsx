@@ -101,7 +101,7 @@ export default function IndexPage() {
           </AnimatedText>
           <div className="mt-0 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              취미로 프론트 개발하는 백엔드 개발자
+              가끔 취미로 프론트 개발하는 백엔드 개발자
             </p>
           </div>
 

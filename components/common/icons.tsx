@@ -69,6 +69,8 @@ import {
   SiMariadb,
   SiUnrealengine,
   SiUnity,
+  SiSpringboot,
+  SiSpring,
 } from "react-icons/si";
 import { PiGithubLogoDuotone } from "react-icons/pi";
 
@@ -122,6 +124,8 @@ export const Icons = {
   netlify: SiNetlify,
   nextjs: SiNextdotjs,
   nodejs: SiNodedotjs,
+  springboot: SiSpringboot,
+  spring: SiSpring,
   react: SiReact,
   redux: SiRedux,
   socketio: SiSocketdotio,
