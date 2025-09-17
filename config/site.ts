@@ -3,19 +3,18 @@ export const siteConfig = {
   authorName: "Heo Won",
   username: "monomable",
   description:
-    "Naman Barkiya's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
-  url: "https://nbarkiya.xyz",
+    "Heo Won's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
+  url: "https://wonportfolio-silk.vercel.app/",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    linkedin: "https://www.linkedin.com/in/%EC%9B%90-%ED%97%88-402127385 ",
+    github: "https://github.com/monomable",
   },
-  ogImage: "https://nbarkiya.xyz/profile-img.jpg",
+  ogImage: "https://wonportfolio-silk.vercel.app/profile-img.jpg",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
     "Full Stack Developer",
     "Web Developer Portfolio",
     "Next.js portfolio template",

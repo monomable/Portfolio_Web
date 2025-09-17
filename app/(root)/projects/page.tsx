@@ -42,8 +42,13 @@ export default function ProjectsPage() {
     },
     {
       value: "professional",
-      label: "Professional",
+      label: "Team",
       content: renderContent("professional"),
+    },
+    {
+      value: "toyporject",
+      label: "Toy",
+      content: renderContent("toyproject"),
     },
   ];
 
