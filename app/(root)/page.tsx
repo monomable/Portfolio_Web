@@ -97,11 +97,11 @@ export default function IndexPage() {
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Backend Developer
+            Full Stack Developer
           </AnimatedText>
           <div className="mt-0 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              가끔 취미로 프론트 개발하는 백엔드 개발자
+              FrontEnd Develop, BackEnd Develop, and Game Client Developer
             </p>
           </div>
 
