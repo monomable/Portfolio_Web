@@ -9,7 +9,8 @@
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "font:pretendard": "node scripts/download-pretendard.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.2.0",
