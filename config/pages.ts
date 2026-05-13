@@ -68,8 +68,7 @@ export const pagesConfig: PagesConfig = {
     description: "Professional journey and career timeline.",
     metadata: {
       title: "Experience",
-      description:
-        "Heo Won's professional journey and experience timeline.",
+      description: "Heo Won's professional journey and experience timeline.",
     },
   },
 };

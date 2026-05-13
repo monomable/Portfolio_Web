@@ -41,6 +41,7 @@ import {
   HiOutlineLink,
 } from "react-icons/hi";
 import { IoIosGitBranch } from "react-icons/io";
+import { PiGithubLogoDuotone } from "react-icons/pi";
 import {
   SiAmazonaws,
   SiAngular,
@@ -50,8 +51,10 @@ import {
   SiGmail,
   SiGraphql,
   SiHtml5,
+  SiInstagram,
   SiJavascript,
   SiLinkedin,
+  SiMariadb,
   SiMongodb,
   SiMui,
   SiMysql,
@@ -62,17 +65,14 @@ import {
   SiReact,
   SiRedux,
   SiSocketdotio,
+  SiSpring,
+  SiSpringboot,
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
-  SiInstagram,
-  SiMariadb,
-  SiUnrealengine,
   SiUnity,
-  SiSpringboot,
-  SiSpring,
+  SiUnrealengine,
 } from "react-icons/si";
-import { PiGithubLogoDuotone } from "react-icons/pi";
 
 export const Icons = {
   contact: Phone,

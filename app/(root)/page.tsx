@@ -22,8 +22,8 @@ import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
 
 export const metadata: Metadata = {
-  title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,
-  description: `${pagesConfig.home.metadata.description} This open-source Next.js portfolio template is customizable to showcase your skills and projects.`,
+  title: pagesConfig.home.metadata.title,
+  description: pagesConfig.home.metadata.description,
   alternates: {
     canonical: siteConfig.url,
   },
@@ -41,18 +41,13 @@ export default function IndexPage() {
     sameAs: [siteConfig.links.github, siteConfig.links.linkedin],
   };
 
-  // Structured data for website as a software application (template)
-  const softwareSchema = {
+  // Structured data for the portfolio website.
+  const websiteSchema = {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: "Next.js Portfolio Template",
-    applicationCategory: "DeveloperApplication",
-    operatingSystem: "Web",
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "USD",
-    },
+    "@type": "WebSite",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: siteConfig.description,
     author: {
       "@type": "Person",
       name: siteConfig.authorName,
@@ -68,9 +63,9 @@ export default function IndexPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
       <Script
-        id="schema-software"
+        id="schema-website"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
       />
 
       <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
@@ -91,7 +86,7 @@ export default function IndexPage() {
           >
             HEO WON
           </AnimatedText>
-          
+
           <AnimatedText
             as="h3"
             delay={0.4}
@@ -101,14 +96,15 @@ export default function IndexPage() {
           </AnimatedText>
           <div className="mt-0 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              FrontEnd Develop, BackEnd Develop, and Game Client Developer
+              Frontend, backend, and game client developer focused on practical
+              product experiences.
             </p>
           </div>
 
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
               <Link
-                href={"https://github.com/namanbarkiya"}
+                href={siteConfig.links.github}
                 target="_blank"
                 className={cn(buttonVariants({ size: "lg" }))}
                 aria-label="View Heo Won's GitHub profile"
