@@ -9,16 +9,16 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Sprint Boot",
+    name: "Spring Boot",
     description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+      "Build production-ready Java backend services and APIs with the Spring ecosystem.",
     rating: 5,
     icon: Icons.springboot,
   },
   {
     name: "Spring Native",
     description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+      "Compile Spring applications into native executables for faster startup and lower memory usage.",
     rating: 5,
     icon: Icons.spring,
   },
@@ -102,7 +102,7 @@ export const skillsUnsorted: skillsInterface[] = [
   {
     name: "MariaDB",
     description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+      "Design and operate relational data models with a MySQL-compatible open-source database.",
     rating: 4,
     icon: Icons.mariadb,
   },
@@ -114,9 +114,9 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.mysql,
   },
   {
-    name: "Unreal 5",
+    name: "Unreal Engine 5",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Build real-time 3D and game client experiences with Unreal Engine tooling.",
     rating: 4,
     icon: Icons.unreal,
   },
